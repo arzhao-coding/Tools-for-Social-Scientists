@@ -1,0 +1,22 @@
+Unfortunately, I had to import many modules to have my functions work. However, the functions simplify the process of using these tools in tandem rather than coding them individually. 
+
+from my_module import stats_functions as stats
+from my_module import test_functions as tests
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+import statsmodels.api as sm
+from sklearn import model_selection
+
+
+The full list of modules are
+numpy for mathematical tools
+pandas for data analysis
+matplotlib.pyplot for plotting functions
+seaborn for more plotting and available datasets
+sklearn.linear_model for linear regression
+sklearn.model_selection for cross validation and data splitting
+statsmodels.api for linear regression summary outputs
